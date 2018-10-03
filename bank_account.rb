@@ -29,7 +29,6 @@ class Account
   end
 
   private
-
   def pin
     @pin = 1234
   end
@@ -38,5 +37,3 @@ class Account
     "Access denied: incorrect PIN."
   end
 end
-
-chris = Account.new('Chris', 5000)
